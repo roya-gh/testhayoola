@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RC_Logo_WM_Neg.png</file>
+        <file>loginScreenDefaultBackgroudn.png</file>
+        <file>ROBOT_CAHCE_LOGO_Horiz.png</file>
+    </qresource>
+</RCC>
