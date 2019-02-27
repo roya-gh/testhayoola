@@ -215,14 +215,16 @@ Item {
             }
 
 
-//            Text {
-//                id: noteId
-//                anchors.horizontalCenter: parent.horizontalCenter
-//                text: qsTr("Please note Login is only for accounts which have recieved an invitation to Early Access. if you have not yet signed up for Early Access, please sign-up below.")
-//                width: 220
+            Text {
+                id: noteId
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Please note Login is only for accounts which have recieved an invitation to Early Access. if you have not yet signed up for Early Access, please sign-up below.")
+                width: parent.width
 //                height: 100
-//                color: "white"
-//            }
+
+                color: "white"
+                wrapMode: Text.WordWrap
+            }
             //            Glow
             //            {
             //                anchors.fill: loginBtn;
